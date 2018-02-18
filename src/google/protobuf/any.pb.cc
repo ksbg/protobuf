@@ -432,7 +432,7 @@ void Any::InternalSwap(Any* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Any* Arena::Create< ::google::protobuf::Any >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::Any >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::Any >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

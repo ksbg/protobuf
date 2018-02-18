@@ -338,7 +338,7 @@ void Empty::InternalSwap(Empty* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Empty* Arena::CreateMessage< ::google::protobuf::Empty >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Empty >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Empty >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

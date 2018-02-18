@@ -365,7 +365,7 @@ void FieldMask::InternalSwap(FieldMask* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FieldMask* Arena::Create< ::google::protobuf::FieldMask >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::FieldMask >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::FieldMask >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

@@ -14116,85 +14116,85 @@ void GeneratedCodeInfo::InternalSwap(GeneratedCodeInfo* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FileDescriptorSet* Arena::CreateMessage< ::google::protobuf::FileDescriptorSet >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FileDescriptorSet >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FileDescriptorSet >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FileDescriptorProto* Arena::CreateMessage< ::google::protobuf::FileDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FileDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FileDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::DescriptorProto_ExtensionRange* Arena::CreateMessage< ::google::protobuf::DescriptorProto_ExtensionRange >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::DescriptorProto_ExtensionRange >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::DescriptorProto_ExtensionRange >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::DescriptorProto_ReservedRange* Arena::CreateMessage< ::google::protobuf::DescriptorProto_ReservedRange >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::DescriptorProto_ReservedRange >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::DescriptorProto_ReservedRange >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::DescriptorProto* Arena::CreateMessage< ::google::protobuf::DescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::DescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::DescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::ExtensionRangeOptions* Arena::CreateMessage< ::google::protobuf::ExtensionRangeOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::ExtensionRangeOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::ExtensionRangeOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FieldDescriptorProto* Arena::CreateMessage< ::google::protobuf::FieldDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FieldDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FieldDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::OneofDescriptorProto* Arena::CreateMessage< ::google::protobuf::OneofDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::OneofDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::OneofDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumDescriptorProto_EnumReservedRange* Arena::CreateMessage< ::google::protobuf::EnumDescriptorProto_EnumReservedRange >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumDescriptorProto_EnumReservedRange >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumDescriptorProto_EnumReservedRange >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumDescriptorProto* Arena::CreateMessage< ::google::protobuf::EnumDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumValueDescriptorProto* Arena::CreateMessage< ::google::protobuf::EnumValueDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumValueDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumValueDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::ServiceDescriptorProto* Arena::CreateMessage< ::google::protobuf::ServiceDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::ServiceDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::ServiceDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::MethodDescriptorProto* Arena::CreateMessage< ::google::protobuf::MethodDescriptorProto >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::MethodDescriptorProto >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::MethodDescriptorProto >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FileOptions* Arena::CreateMessage< ::google::protobuf::FileOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FileOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FileOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::MessageOptions* Arena::CreateMessage< ::google::protobuf::MessageOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::MessageOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::MessageOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FieldOptions* Arena::CreateMessage< ::google::protobuf::FieldOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FieldOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FieldOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::OneofOptions* Arena::CreateMessage< ::google::protobuf::OneofOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::OneofOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::OneofOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumOptions* Arena::CreateMessage< ::google::protobuf::EnumOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumValueOptions* Arena::CreateMessage< ::google::protobuf::EnumValueOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumValueOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumValueOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::ServiceOptions* Arena::CreateMessage< ::google::protobuf::ServiceOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::ServiceOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::ServiceOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::MethodOptions* Arena::CreateMessage< ::google::protobuf::MethodOptions >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::MethodOptions >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::MethodOptions >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::UninterpretedOption_NamePart* Arena::CreateMessage< ::google::protobuf::UninterpretedOption_NamePart >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::UninterpretedOption_NamePart >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::UninterpretedOption_NamePart >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::UninterpretedOption* Arena::CreateMessage< ::google::protobuf::UninterpretedOption >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::UninterpretedOption >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::UninterpretedOption >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::SourceCodeInfo_Location* Arena::CreateMessage< ::google::protobuf::SourceCodeInfo_Location >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::SourceCodeInfo_Location >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::SourceCodeInfo_Location >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::SourceCodeInfo* Arena::CreateMessage< ::google::protobuf::SourceCodeInfo >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::SourceCodeInfo >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::SourceCodeInfo >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::GeneratedCodeInfo_Annotation* Arena::CreateMessage< ::google::protobuf::GeneratedCodeInfo_Annotation >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::GeneratedCodeInfo_Annotation >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::GeneratedCodeInfo_Annotation >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::GeneratedCodeInfo* Arena::CreateMessage< ::google::protobuf::GeneratedCodeInfo >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::GeneratedCodeInfo >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::GeneratedCodeInfo >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

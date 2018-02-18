@@ -427,7 +427,7 @@ void Timestamp::InternalSwap(Timestamp* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Timestamp* Arena::CreateMessage< ::google::protobuf::Timestamp >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Timestamp >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Timestamp >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

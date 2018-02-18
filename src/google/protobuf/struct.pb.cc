@@ -1468,16 +1468,16 @@ void ListValue::InternalSwap(ListValue* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Struct_FieldsEntry_DoNotUse* Arena::CreateMessage< ::google::protobuf::Struct_FieldsEntry_DoNotUse >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Struct_FieldsEntry_DoNotUse >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Struct_FieldsEntry_DoNotUse >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Struct* Arena::CreateMessage< ::google::protobuf::Struct >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Struct >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Struct >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Value* Arena::CreateMessage< ::google::protobuf::Value >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Value >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Value >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::ListValue* Arena::CreateMessage< ::google::protobuf::ListValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::ListValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::ListValue >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

@@ -2738,7 +2738,7 @@ void MessageGenerator::GenerateSourceInProto2Namespace(io::Printer* printer) {
       "template<> "
       "GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE "
       "$classname$* Arena::$create_func$< $classname$ >(Arena* arena) {\n"
-      "  return Arena::$create_func$Internal< $classname$ >(arena);\n"
+      "  return Arena::$create_func$Internal_< $classname$ >(arena);\n"
       "}\n",
       "classname", QualifiedClassName(descriptor_),
       "create_func", MessageCreateFunction(descriptor_));

@@ -1750,16 +1750,16 @@ void CodeGeneratorResponse::InternalSwap(CodeGeneratorResponse* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::compiler::Version* Arena::Create< ::google::protobuf::compiler::Version >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::compiler::Version >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::compiler::Version >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::compiler::CodeGeneratorRequest* Arena::Create< ::google::protobuf::compiler::CodeGeneratorRequest >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::compiler::CodeGeneratorRequest >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::compiler::CodeGeneratorRequest >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::compiler::CodeGeneratorResponse_File* Arena::Create< ::google::protobuf::compiler::CodeGeneratorResponse_File >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::compiler::CodeGeneratorResponse_File >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::compiler::CodeGeneratorResponse_File >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::compiler::CodeGeneratorResponse* Arena::Create< ::google::protobuf::compiler::CodeGeneratorResponse >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::compiler::CodeGeneratorResponse >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::compiler::CodeGeneratorResponse >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

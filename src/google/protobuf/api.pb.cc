@@ -1598,13 +1598,13 @@ void Mixin::InternalSwap(Mixin* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Api* Arena::Create< ::google::protobuf::Api >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::Api >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::Api >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Method* Arena::Create< ::google::protobuf::Method >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::Method >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::Method >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Mixin* Arena::Create< ::google::protobuf::Mixin >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::Mixin >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::Mixin >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

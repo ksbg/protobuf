@@ -427,7 +427,7 @@ void Duration::InternalSwap(Duration* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Duration* Arena::CreateMessage< ::google::protobuf::Duration >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Duration >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Duration >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

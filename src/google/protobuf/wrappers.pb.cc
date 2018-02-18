@@ -2768,31 +2768,31 @@ void BytesValue::InternalSwap(BytesValue* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::DoubleValue* Arena::CreateMessage< ::google::protobuf::DoubleValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::DoubleValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::DoubleValue >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::FloatValue* Arena::CreateMessage< ::google::protobuf::FloatValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::FloatValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::FloatValue >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Int64Value* Arena::CreateMessage< ::google::protobuf::Int64Value >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Int64Value >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Int64Value >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::UInt64Value* Arena::CreateMessage< ::google::protobuf::UInt64Value >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::UInt64Value >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::UInt64Value >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Int32Value* Arena::CreateMessage< ::google::protobuf::Int32Value >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Int32Value >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Int32Value >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::UInt32Value* Arena::CreateMessage< ::google::protobuf::UInt32Value >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::UInt32Value >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::UInt32Value >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::BoolValue* Arena::CreateMessage< ::google::protobuf::BoolValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::BoolValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::BoolValue >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::StringValue* Arena::CreateMessage< ::google::protobuf::StringValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::StringValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::StringValue >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::BytesValue* Arena::CreateMessage< ::google::protobuf::BytesValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::BytesValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::BytesValue >(arena);
 }
 }  // namespace protobuf
 }  // namespace google

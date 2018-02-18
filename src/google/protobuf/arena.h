@@ -663,7 +663,7 @@ class LIBPROTOBUF_EXPORT Arena {
 
  private:
   template <typename T> GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE
-  static T* CreateMessageInternal(::google::protobuf::Arena* arena) {
+  static T* CreateMessageInternal_(::google::protobuf::Arena* arena) {
 #if LANG_CXX11
     static_assert(
         InternalHelper<T>::is_arena_constructable::value,
@@ -677,7 +677,7 @@ class LIBPROTOBUF_EXPORT Arena {
   }
 
   template <typename T> GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE
-  static T* CreateInternal(::google::protobuf::Arena* arena) {
+  static T* CreateInternal_(::google::protobuf::Arena* arena) {
     if (arena == NULL) {
       return new T();
     } else {
@@ -716,12 +716,12 @@ class LIBPROTOBUF_EXPORT Arena {
   // fields, since they are designed to work in all mode combinations.
   template <typename Msg> GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE
   static Msg* CreateMaybeMessage(Arena* arena, google::protobuf::internal::true_type) {
-    return CreateMessageInternal<Msg>(arena);
+    return CreateMessageInternal_<Msg>(arena);
   }
 
   template <typename T> GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE
   static T* CreateMaybeMessage(Arena* arena, google::protobuf::internal::false_type) {
-    return CreateInternal<T>(arena);
+    return CreateInternal_<T>(arena);
   }
 
   template <typename T> GOOGLE_PROTOBUF_ATTRIBUTE_ALWAYS_INLINE

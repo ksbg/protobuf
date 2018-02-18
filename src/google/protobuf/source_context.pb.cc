@@ -373,7 +373,7 @@ void SourceContext::InternalSwap(SourceContext* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::SourceContext* Arena::Create< ::google::protobuf::SourceContext >(Arena* arena) {
-  return Arena::CreateInternal< ::google::protobuf::SourceContext >(arena);
+  return Arena::CreateInternal_< ::google::protobuf::SourceContext >(arena);
 }
 }  // namespace protobuf
 }  // namespace google
